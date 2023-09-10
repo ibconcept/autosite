@@ -1,0 +1,42 @@
+/* Add some basic styling to the editable areas */
+#html-editor, #css-editor {
+    width: 25%;
+    height: 300px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 2px;
+    float: left;
+}
+body {
+    margin: 30px;
+    padding: 0px;
+    font-family: Poppins, sans-serif;}
+
+
+#result-iframe {
+    width: 45%;
+    height: 300px;
+    border: 1px solid #ccc;
+    margin: 2px; 
+}
+
+h1 {
+    display: inline-block; 
+}
+
+.logo {
+    display: inline;
+    margin-left: 5%;
+    margin-right: 3%;
+    width: 200px;
+}
+
+/* Style the copy button */
+#copy-button {
+    margin: 10px;
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
